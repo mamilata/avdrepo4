@@ -11,5 +11,5 @@ jobs:
         - name: checkout code
           uses: actions/checkout@v2
         - name: checkout python version
-          uses: python --version
+          run: python --version
         
